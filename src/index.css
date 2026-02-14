@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  /* Dark animated gradient background */
+  background: linear-gradient(-45deg, #0f172a, #1e293b, #334155, #1e1b4b);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  min-height: 100vh;
+  color: #f8fafc; /* Light text for dark background */
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Updated 3D Glass Cards for Dark Theme */
+.home-card {
+  background: rgba(255, 255, 255, 0.05); /* Very subtle glass */
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  width: 260px;
+  border-radius: 25px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  text-align: center;
+}
+
+.home-card:hover {
+  transform: scale(1.08) translateY(-15px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #38bdf8; /* Bright blue highlight on hover */
+}
