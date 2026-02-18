@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/student-skill-swap/static/js/main.4038950d.js",
+    "main.css": "/student-skill-swap/static/css/main.4908402c.css",
+    "main.js": "/student-skill-swap/static/js/main.e2d85a99.js",
+    "static/media/logo.jpeg": "/student-skill-swap/static/media/logo.9f8ea18f7dcffc977ba2.jpeg",
     "index.html": "/student-skill-swap/index.html",
-    "main.4038950d.js.map": "/student-skill-swap/static/js/main.4038950d.js.map"
+    "main.4908402c.css.map": "/student-skill-swap/static/css/main.4908402c.css.map",
+    "main.e2d85a99.js.map": "/student-skill-swap/static/js/main.e2d85a99.js.map"
   },
   "entrypoints": [
-    "static/js/main.4038950d.js"
+    "static/css/main.4908402c.css",
+    "static/js/main.e2d85a99.js"
   ]
 }
