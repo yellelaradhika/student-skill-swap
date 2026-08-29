@@ -1,22 +1,33 @@
-​# 🚀 SkillSwap - Avishkarana Andhra Initiative
-##Connect. Swap. Learn. The #1 regional platform for students to exchange skills.
+​# 🚀 Student Skill Swap Platform
 
-📌 Project Overview
-
-SkillSwap is a community-focused web application tailored for the **Avishkarana Andhra Internship Project**. It addresses the critical need for collaborative student communities across Andhra Pradesh where knowledge serves as the primary currency. Instead of paying for expensive courses, students across regional collegiate hubs can seamlessly "swap" their technical and vocational expertise (e.g., Python programming for Data Analytics or UI Design)
----
-✨ Key Features
-*   **Skill Marketplace:** A dynamic, centralized dashboard to browse available skills across regional student networks.
-*   **Category Filtering:** Skills systematically categorized by Tech, Data Analytics, Business, Design, Finance, and Vocational Arts.
-*   **Localized District Filters:** Integrated regional filtering to help users discover peer-mentors and study circles within specific districts (e.g., Guntur, Vijayawada, Visakhapatnam).
-*   **Propose Swap:** Interactive action mechanics for users to securely initiate a skill exchange request.
-*   **Expertise Levels:** Clear, intuitive indicators of user proficiency levels (Beginner, Intermediate, Expert) to ensure effective matching.
-*   **Modern Neon-Dark UI:** A sleek, high-tech, responsive user interface designed for intuitive navigation and cross-device accessibility.
+> An interactive peer-to-peer collaboration platform built to connect students and facilitate skill exchange based on compatibility and profile matching.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
-*   **Frontend Framework:** React.js (Single Page Application architecture)
-*   **Styling & Layout:** CSS3, Bootstrap (Engineered with a modern, responsive theme)
-*   **Version Control & Deployment:** Git, GitHub Pages
-*   **Development environment:** VS Code
+## 📌 Overview
+
+**Student Skill Swap** addresses the challenge of finding peer mentors and technical collaborators within academic communities. Built during the **byteXL Hackathon**, this application enables students to showcase their competencies, discover complementary skill sets, and initiate collaborative partnerships through an intuitive interface.
+
+---
+
+## ✨ Features
+
+- **Skill Compatibility Matching:** Algorithmic logic to match students based on target skills, technical interests, and learning goals.
+- **Interactive Interface:** Responsive, modular frontend built with ReactJS for seamless browsing of peer profiles.
+- **Search & Filter Logic:** Query resolution to quickly locate specific programming languages, domains, and frameworks.
+- **Live Deployment:** Production build deployed and hosted directly on GitHub Pages.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** ReactJS, JavaScript (ES6+), HTML5, CSS3
+- **Architecture & Logic:** RESTful API concepts, Modular State Management
+- **Tools & Hosting:** Git, GitHub, GitHub Pages, VS Code
+
+---
+
+## 🚀 GenAI Integration Roadmap
+
+- **Semantic Peer Matching:** Leveraging LLM APIs (Gemini / OpenAI) and vector embeddings to recommend peer matches based on unstructured profile descriptions.
+- **Smart Profile Summarizer:** Implementing prompt-engineered pipelines to auto-generate concise skill summaries from student bios.
